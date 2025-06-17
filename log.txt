@@ -1,0 +1,22 @@
+INFO:     127.0.0.1:55976 - "POST /tts HTTP/1.1" 200 OK
+Loading Text2Semantic weights from c:\Users\scryu\Desktop\pythons\ttsAgent\models\Hutao_GPT.ckpt
+INFO:     127.0.0.1:56018 - "GET /set_gpt_weights?weights_path=c%3A%5CUsers%5Cscryu%5CDesktop%5Cpythons%5CttsAgent%5Cmodels%5CHutao_GPT.ckpt HTTP/1.1" 200 OK
+Loading VITS weights from c:\Users\scryu\Desktop\pythons\ttsAgent\models\Hutao_Sovits.pth
+INFO:     127.0.0.1:56019 - "GET /set_sovits_weights?weights_path=c%3A%5CUsers%5Cscryu%5CDesktop%5Cpythons%5CttsAgent%5Cmodels%5CHutao_Sovits.pth HTTP/1.1" 200 OK
+Set seed to 1972342331
+并行推理模式已开启
+分桶处理模式已开启
+실제 입력된 참고 텍스트: 그나저나, 클로린드가 옛날에 푸리나의 부하였나봐?
+############ 切分文本 ############
+실제 입력된 목표 텍스트:
+。안녕,만나서 반가워!
+실제 입력된 목표 텍스트(문장 분리 후):
+['안녕,만나서 반가워!']
+############ 提取文本Bert特征 ############
+100%|███████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 333.49it/s]
+############ 推理 ############
+프론트엔드 처리 후 텍스트(문장별): [' ']
+  0%|                                                                                 | 1/1500 [00:00<02:35,  9.62it/s]T2S Decoding EOS [116 -> 118]
+  0%|                                                                                 | 1/1500 [00:00<03:08,  7.94it/s]
+0.001   0.008   0.137   0.063
+INFO:     127.0.0.1:56021 - "POST /tts HTTP/1.1" 200 OK

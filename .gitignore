@@ -79,12 +79,6 @@ dmypy.json
 # Mac OS
 .DS_Store
 
-# Audio & model files (optional, if generated or downloaded)
-*.wav
-*.pth
-*.pt
-*.ckpt
-
 # Logs and temporary files
 *.log
 *.tmp
