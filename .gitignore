@@ -94,5 +94,3 @@ dmypy.json
 # Project specific (optional)
 example_wavs/
 models/
-
-GPT_SoVITS/

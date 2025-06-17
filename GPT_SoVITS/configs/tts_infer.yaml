@@ -1,0 +1,24 @@
+custom:
+  bert_base_path: GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+  cnhuhbert_base_path: GPT_SoVITS/pretrained_models/chinese-hubert-base
+  device: cpu
+  is_half: false
+  t2s_weights_path: models/Hutao_GPT.ckpt
+  version: v2
+  vits_weights_path: models/Hutao_Sovits.pth
+default:
+  bert_base_path: GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+  cnhuhbert_base_path: GPT_SoVITS/pretrained_models/chinese-hubert-base
+  device: cpu
+  is_half: false
+  t2s_weights_path: models/Hutao_GPT.ckpt
+  version: v1
+  vits_weights_path: models/Hutao_Sovits.pth
+default_v2:
+  bert_base_path: GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+  cnhuhbert_base_path: GPT_SoVITS/pretrained_models/chinese-hubert-base
+  device: cpu
+  is_half: false
+  t2s_weights_path: models/Hutao_GPT.ckpt
+  version: v2
+  vits_weights_path: models/Hutao_Sovits.pth
